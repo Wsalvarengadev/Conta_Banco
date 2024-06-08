@@ -27,6 +27,7 @@ Esta classe representa a estrutura de uma conta bancária. Ela contém os seguin
 
 3.Exemplo do codigo:
 
+```java
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Locale.setDefault(Locale.US);
@@ -46,4 +47,5 @@ public class ContaTerminal {
         System.out.print("Por favor entre com saldo: ");
         saldo = input.nextDouble();
 
+```
 Bons estudos!
